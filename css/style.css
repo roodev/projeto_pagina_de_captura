@@ -70,3 +70,41 @@ select{
   background-repeat: no-repeat;
   background-position: calc(100% - 10px) center;
 }
+
+footer{
+  background-color: #202121;
+  padding: 40px;
+  text-align: center;
+}
+
+.picture{
+  width: 240px;
+}
+
+.description{
+  color: white;
+  display: inline-block;
+  text-align: left;
+  max-width: 40%;
+  margin-left: 40px;
+}
+
+.description p, .description h3{
+  margin-bottom: 20px;
+}
+
+.description h3{
+  font-size: 24px;
+}
+
+@media screen and (max-width: 600px){
+
+  .formContainer{
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding: 15px;
+    float: none;
+    margin: auto;
+  }
+  
+}
